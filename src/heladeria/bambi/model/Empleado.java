@@ -12,7 +12,7 @@ import javax.persistence.*;
 @NamedQuery(name="Empleado.findAll", query="SELECT e FROM Empleado e")
 public class Empleado implements Serializable {
 	private static final long serialVersionUID = 1L;
-
+         //añadi una linea
 	@Id
 	private long ci;
 
